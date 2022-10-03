@@ -3,19 +3,18 @@
 //  Pokemon
 //
 //  Created by Sai Lakshmi on 9/30/22.
-//
+// Pokemon API - https://pokedex-bb36f.firebaseio.com/pokemon.json
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        PokemonGridView()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        PokemonGridView()
     }
 }
